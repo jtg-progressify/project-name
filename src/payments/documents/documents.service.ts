@@ -8,7 +8,7 @@ export class DocumentsService {
   }
 
   findAll() {
-    return `This action returns all documentss`;
+    return `This action returns all documents`;
   }
 
   findOne(id: number) {
