@@ -5,22 +5,22 @@ import { UpdateInvoiceDto } from './dto/update-invoice.dto';
 @Injectable()
 export class InvoiceService {
   create(createInvoiceDto: CreateInvoiceDto) {
-    return 'This action adds a new invoice';
+    return 'This action adds a new invoices';
   }
 
   findAll() {
-    return `This action returns all invoice`;
+    return `This action returns all invoices`;
   }
 
   findOne(id: number) {
-    return `This action returns a #${id} invoice`;
+    return `This action returns a #${id} invoices`;
   }
 
   update(id: number, updateInvoiceDto: UpdateInvoiceDto) {
-    return `This action updates a #${id} invoice`;
+    return `This action updates a #${id} invoices`;
   }
 
   remove(id: number) {
-    return `This action removes a #${id} invoice`;
+    return `This action removes a #${id} invoices`;
   }
 }
