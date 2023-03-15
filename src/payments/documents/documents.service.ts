@@ -12,10 +12,10 @@ export class DocumentsService {
   }
 
   findOne(id: number) {
-    return `This action returns a #${id} documents`;
+    return `This action returns a #${id} document`;
   }
 
   remove(id: number) {
-    return `This action removes a #${id} documents`;
+    return `This action removes a #${id} document`;
   }
 }
