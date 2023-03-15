@@ -5,7 +5,7 @@ import { UpdateInvoiceDto } from './dto/update-invoice.dto';
 @Injectable()
 export class InvoiceService {
   create(createInvoiceDto: CreateInvoiceDto) {
-    return 'This action adds a new invoices';
+    return 'This action adds a new invoice';
   }
 
   findAll() {
