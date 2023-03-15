@@ -4,11 +4,11 @@ import { CreateTitleDto } from './dto/create-title.dto';
 @Injectable()
 export class TitleService {
   create(createTitleDto: CreateTitleDto) {
-    return 'This action adds a new title';
+    return 'This action adds a new titles';
   }
 
   findAll() {
-    return `This action returns all title`;
+    return `This action returns all titles`;
   }
 
   findOne(id: number) {
